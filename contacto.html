@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <title>Servicios</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="caja">
+            <h1>
+                <img src="img/logo.png" alt="" srcset="">
+            </h1>
+            <nav>
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="servicios.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        <form action="">
+            <label for="nombreyapellido">Nombre y Apellido</label>
+            <input class="input-padron" type="text" name="" id="nombreyapellido" required
+                placeholder="Escriba AQUI su Nombre y Apellido">
+
+            <label for="email">Correo Electrónico</label>
+            <input class="input-padron" type="email" name="" id="email" required placeholder="email@dominio.com">
+
+            <label for="telefono">Teléfono</label>
+            <input class="input-padron" type="tel" name="" id="telefono" required placeholder="(xx) xxxx-xxxx">
+
+            <label for="comentario">Envíenos sus comentarios</label>
+            <textarea class="input-padron" name="" id="comentario" cols="70" rows="10"></textarea>
+            <fieldset>
+                <legend>¿Cómo le gustaría ser contactado?</legend>
+                <label for="email"><input type="radio" name="contacto" id="email">E-mail</label>
+
+
+                <label for="telefono"><input type="radio" name="contacto" id="telefono">TeléfonoE-mail</label>
+
+
+                <label for="wassap"><input type="radio" name="contacto" id="wassap" checked>WhatsApp</label>
+
+            </fieldset>
+            <fieldset>
+                <legend>¿En que horario prefiere ser atendido?</legend>
+                <select name="" id="">
+                    <option value="">Mañana</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noche</option>
+                </select>
+            </fieldset>
+
+            <label class="checkbox" for="newsletter">¿Le gustaría recibír novedades de la barbería?<input
+                    type="checkbox" name="" id="newsletter" checked></label>
+
+            <input class="enviar" type="submit" value="Enviar consulta">
+        </form>
+
+        <table>
+            <thead>
+                <th>Día</th>
+                <th>Horario</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>8:30hs a 21hs</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>8:30hs a 21hs</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>8:30hs a 21hs</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+    <footer>
+        <img src="img/logo-blanco.png" alt="" srcset="">
+
+        <p class="copyright">&copy Copyright Barberia @enocM</p>
+    </footer>
+
+</body>
+
+</html>
