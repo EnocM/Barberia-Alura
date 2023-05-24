@@ -82,7 +82,7 @@ nav a:hover{
 footer{
     text-align: center;
     padding: 40px;
-    background: url(img/bg.jpg);
+    background-image: url("../img/bg.jpg");
 }
 
 .copyright{
