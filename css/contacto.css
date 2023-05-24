@@ -37,10 +37,10 @@ nav a:hover{
 footer{
     text-align: center;
     padding: 40px;
-    background: url(/PracticasONE/Barberia/img/bg.jpg);
+    background: url(img/bg.jpg);
 }
 
-.ght{
+.copyright{
     color:white;
     font-size: 13px;
     margin: 20px;
